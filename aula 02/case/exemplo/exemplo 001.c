@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <locale.h>
 
-main(){
+int main(){
 	setlocale(LC_ALL,"Portuguese");
 	char op;
 	float num1,num2;
@@ -16,6 +16,6 @@ main(){
 			printf(" = %.2f",num1-num2);
 		break;
 		default:
-			printf("Operador invalido")
+			printf("Operador invalido");
 	}
 }

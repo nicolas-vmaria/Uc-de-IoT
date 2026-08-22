@@ -11,10 +11,10 @@ main(){
 	scanf ("%d", &idade);
 	
 	if(idade <=0)
-		printf("Idade invalida");
+		printf("Idade inválida");
 	
 	else if(idade <=11)
-		printf("Crianca");
+		printf("Criança");
 		
 	else if((idade >= 12) && (idade <=18))
 	printf("Adolescente");
