@@ -23,7 +23,8 @@ int main(){
 			}
 		}
 		if(ehPrimo){
-			printf("O numero %d da posicao %d eh primo",num,i);
+			printf("\nO numero %d da posicao %d eh primo",num,i);
 		}
 	}
+	system("pause");
 }
